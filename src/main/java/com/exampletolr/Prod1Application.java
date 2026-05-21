@@ -26,7 +26,7 @@ public class Prod1Application implements CommandLineRunner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter number: ");
+        System.out.print(" Can you enter number: ");
         double base = scanner.nextDouble();
 
         System.out.print("Введіть степінь: ");
