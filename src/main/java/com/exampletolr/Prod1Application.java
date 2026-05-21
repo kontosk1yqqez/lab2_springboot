@@ -34,7 +34,7 @@ public class Prod1Application implements CommandLineRunner {
 
         double result = mathService.calculatePower(base, exponent);
 
-        System.out.println("MAIN RESULT:");
+        System.out.println("MAIN VERSION");
         System.out.println(base + " ^ " + exponent + " = " + result);
 
         scanner.close();
